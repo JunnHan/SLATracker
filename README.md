@@ -18,6 +18,7 @@ See [DATASET_ZOO.md](https://github.com/Zhongdao/Towards-Realtime-MOT/blob/maste
 #### Training
 `python3 train_net.py --config-file config/faster_rcnn_R_50_FPN_1x.yaml`  
 #### Visualization
+A trained model is available at [GoogleDrive](https://drive.google.com/drive/folders/1bfaB9MRSyv_2AfmJYhu2WgiiMA2w8yje?usp=sharing)
 `python3 demo/vis_track.py --config-file config/ --opts MODEL.WEIGHTS output/model_final.pth`
 ### MOTChallenge Results
 [Official MOTChallenge website](https://motchallenge.net/)
