@@ -22,14 +22,14 @@ A trained model is available at [GoogleDrive](https://drive.google.com/drive/fol
 `python3 demo/vis_track.py --config-file config/faster_rcnn_R_50_FPN_1x.yaml --opts MODEL.WEIGHTS output/model_final.pth`
 ### MOTChallenge Results
 [Official MOTChallenge website](https://motchallenge.net/)  
-## Public
+#### Public
 Benchmark | MOTA | IDF1 | MOTP | MT | ML | FP | FN | IDSw |
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 2DMOT15 | 47.0 | 57.9 | 75.3 | 22.6 | 27.2 | 9044 | 22986 | 558 |
 MOT16 | 60.6 | 59.5 | 78.0 | 24.2 | 29.1 | 5783 | 65469 | 643 |
 MOT17 | 59.7 | 63.4 | 77.7 | 24.0 | 31.1 | 16644 | 209318 | 1647 |
   
-## Private
+#### Private
 Benchmark | MOTA | IDF1 | MOTP | MT | ML | FP | FN | IDSw |
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 2DMOT15 | 57.9 | 62.2 | 75.8 | 39.1 | 14.7 | 6973 | 18313 | 577 |
