@@ -17,10 +17,10 @@ See [DATASET_ZOO.md](https://github.com/Zhongdao/Towards-Realtime-MOT/blob/maste
 **Note that we transform all used datasets to COCO format for training convenience.**  
 **The pre-processing code will be uploaded later. Or you can download our transformed .json files from [GoogleDrive](https://drive.google.com/drive/folders/1bfaB9MRSyv_2AfmJYhu2WgiiMA2w8yje?usp=sharing)**
 #### Training
-`python3 train_net.py --config-file config/faster_rcnn_R_50_FPN_1x.yaml`  
+`python3 train_net.py --config-file configs/faster_rcnn_R_50_FPN_1x.yaml`  
 #### Visualization
 A trained model is available at [GoogleDrive](https://drive.google.com/drive/folders/1bfaB9MRSyv_2AfmJYhu2WgiiMA2w8yje?usp=sharing) or [BaiduDisk](https://pan.baidu.com/s/126b0q2OI9Q9diDEvus3p4Q) (kw:sucy)  
-`python3 demo/vis_track.py --config-file config/faster_rcnn_R_50_FPN_1x.yaml --opts MODEL.WEIGHTS output/model_final.pth`
+`python3 demo/vis_track.py --config-file configs/faster_rcnn_R_50_FPN_1x.yaml --opts MODEL.WEIGHTS output/model_final.pth`
 ### MOTChallenge Results
 [Official MOTChallenge website](https://motchallenge.net/)  
 #### Public
