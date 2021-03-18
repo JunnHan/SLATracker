@@ -1,7 +1,8 @@
 # SLATracker
 This repository hosts our code for our paper ***Spatial-Attention Location-Aware Multi-Object Tracking***.  
 The code will be released after the paper published.  
-![](https://github.com/JunnHan/SLATracker/blob/main/assets/MOT17-03.gif)  
+<div align='center'/><img src='https://github.com/JunnHan/SLATracker/blob/main/assets/MOT17-03.gif' /></div>  
+
 ### Requirements
 - Python3.6
 - Pytorch 1.6.0, torchvision 0.7.0
