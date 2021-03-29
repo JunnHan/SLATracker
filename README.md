@@ -25,17 +25,17 @@ A trained model is available at [GoogleDrive](https://drive.google.com/drive/fol
 ### MOTChallenge Results
 [Official MOTChallenge website](https://motchallenge.net/)  
 #### Public
-Benchmark | MOTA | IDF1 | MOTP | MT | ML | FP | FN | IDSw |
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-2DMOT15 | 47.0 | 57.9 | 75.3 | 22.6 | 27.2 | 9044 | 22986 | 558 |
-MOT16 | 60.6 | 59.5 | 78.0 | 24.2 | 29.1 | 5783 | 65469 | 643 |
-MOT17 | 59.7 | 63.4 | 77.7 | 24.0 | 31.1 | 16644 | 209318 | 1647 |
+Benchmark | MOTA | IDF1 | HOTA | MOTP | MT | ML | FP | FN | IDSw |
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+2DMOT15 | 47.0 | 57.9 | 43.0 | 75.3 | 22.6 | 27.2 | 9044 | 22986 | 558 |
+MOT16 | 60.6 | 59.5 | 46.8 | 78.0 | 24.2 | 29.1 | 5783 | 65469 | 643 |
+MOT17 | 59.7 | 63.4 | 49.1 | 77.7 | 24.0 | 31.1 | 16644 | 209318 | 1647 |
   
 #### Private
-Benchmark | MOTA | IDF1 | MOTP | MT | ML | FP | FN | IDSw |
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-2DMOT15 | 57.9 | 62.2 | 75.8 | 39.1 | 14.7 | 6973 | 18313 | 577 |
-MOT16 | 72.0 | 69.6 | 77.9 | 37.3 | 20.9 | 7242 | 43147 | 740 |
-MOT17 | 71.8 | 69.0 | 77.8 | 38.0 | 20.5 | 19077 | 137700 | 2493 |
+Benchmark | MOTA | IDF1 | HOTA | MOTP | MT | ML | FP | FN | IDSw |
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+2DMOT15 | 57.9 | 62.2 | 47.1 | 75.8 | 39.1 | 14.7 | 6973 | 18313 | 577 |
+MOT16 | 72.0 | 69.6 | 54.7 | 77.9 | 37.3 | 20.9 | 7242 | 43147 | 740 |
+MOT17 | 71.8 | 69.0 | 54.4 | 77.8 | 38.0 | 20.5 | 19077 | 137700 | 2493 |
 ### Acknowledgement
 A large part of the code is borrowed from [Zhongdao/Towards-Realtime-MOT](https://github.com/Zhongdao/Towards-Realtime-MOT) and [DeanChan/HOIM-PyTorch](https://github.com/DeanChan/HOIM-PyTorch). Thanks for their wonderful works.
