@@ -30,6 +30,7 @@ Benchmark | MOTA | IDF1 | HOTA | MOTP | MT | ML | FP | FN | IDSw |
 2DMOT15 | 47.0 | 57.9 | 43.0 | 75.3 | 22.6 | 27.2 | 9044 | 22986 | 558 |
 MOT16 | 60.6 | 59.5 | 46.8 | 78.0 | 24.2 | 29.1 | 5783 | 65469 | 643 |
 MOT17 | 59.7 | 63.4 | 49.1 | 77.7 | 24.0 | 31.1 | 16644 | 209318 | 1647 |
+  
 **Note that we utilize the pre-processing method of Tracktor, not CenterTrack.**  
   
 #### Private
