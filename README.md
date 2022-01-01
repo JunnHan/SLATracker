@@ -1,5 +1,5 @@
 # SLATracker
-This repository hosts our code for our paper ***Spatial-Attention Location-Aware Multi-Object Tracking***.  
+This repository hosts our code for our paper ***Spatial-Attention Location-Aware Multi-Object Tracking***. (arxiv link not available now)  
 The code will be released after the paper published.  
 [Demo Bilibili](https://www.bilibili.com/video/BV1Ev411779v/)  
 <div align='center'/><img src='https://github.com/JunnHan/SLATracker/blob/main/assets/MOT17-03.gif' /></div>  
